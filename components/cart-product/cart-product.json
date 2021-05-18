@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cart_product_cart_products",
+  "info": {
+    "name": "Cart Product",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "products"
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "min": 1
+    }
+  }
+}

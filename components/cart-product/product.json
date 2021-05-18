@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cart_product_products",
+  "info": {
+    "name": "product",
+    "icon": "shopping-cart"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "products"
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 1,
+      "min": 1,
+      "required": false
+    }
+  }
+}
